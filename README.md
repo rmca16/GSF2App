@@ -6,7 +6,7 @@ Implementation of the Global and Semantic Feature Fusion Approach ([GSF2App](htt
 ## Performing
 GSF2App was evaluated on the [NYU V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) and [SUN RGB-D](https://rgbd.cs.princeton.edu) datasets.
 
-<p align="center"><img src="assets/GSF2App_NYU_results.png" width="425"/> <img src="assets/GSF2App_SUN_results.png" width="425"/> 
+<p align="center"><img src="assets/GSF2App_NYU_results.png" width="300"/> <img src="assets/GSF2App_SUN_results.png" width="300"/> 
   
 ### Requirements
 
@@ -18,7 +18,7 @@ GSF2App was evaluated on the [NYU V2](https://cs.nyu.edu/~silberman/datasets/nyu
     
 ### Training & Tracking
 Global and Semantic features are combined in a two-step learning.
-<p align="center"><img src="assets/GSF2App_training.png" width="480"\></p>
+<p align="center"><img src="assets/GSF2App_training.png" width="360"\></p>
 
 
 To train:
