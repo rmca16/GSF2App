@@ -16,18 +16,30 @@ GSF2App was evaluated on the [NYU V2](https://cs.nyu.edu/~silberman/datasets/nyu
     cv2
     tqmd
     
-### Training & Tracking
+### Training & Evaluate
 Global and Semantic features are combined in a two-step learning.
 <p align="center"><img src="assets/GSF2App_training.png" width="400"\></p>
 
 
+YOLOv3:
+
+  You need to download a COCO's dataset model and add it on YOLOv3\weights folder. You can do it [here](https://drive.google.com/file/d/1u5gyZZnUA-8MetKhW2U-8g29WOzltIV0/view?usp=sharing).
+  For more details you can check this YOLOv3's [PyTorch implementation](https://github.com/eriklindernoren/PyTorch-YOLOv3), or you can check the [original](https://pjreddie.com/darknet/yolo/) implementation.
+  
+
 To train:
 
-    $ [Comming Soon]
+    $ python3 GSF2App_train.py --stage_1_n_epochs 75 --batch_size 32 (and so on)(see the options available on the training file)
+  
+or you can edit the options available directly on the file and:
+
+    $ python3 GSF2App_train.py
 
 To Evaluate:
 
-    $ [Comming Soon]
+The same options as aforementioned are available...
+
+    $ python3 GSF2App_eval
 
 ## Citation
 
@@ -37,6 +49,14 @@ To Evaluate:
   booktitle={IEEE International Conference on Autonomous Robot Systems and Competitions (ICARSC)}, 
   title={{Deep-Learning based Global and Semantic Feature Fusion for Indoor Scene Classification}}, 
   year={2020}}
+```
+
+```
+@InProceedings{yolov3,
+	author={Redmon, Joseph and Farhadi, Ali},
+	title={{YOLOv3: An Incremental Improvement}},
+	booktitle = {arXiv},
+	year={2018}}
 ```
 
 
