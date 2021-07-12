@@ -39,7 +39,7 @@ To Evaluate:
 
 The same options as aforementioned are available...
 
-    $ python3 GSF2App_eval
+    $ python3 GSF2App_eval.py
 
 ## Citation
 
