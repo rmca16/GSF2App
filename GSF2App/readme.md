@@ -24,7 +24,7 @@ Global and Semantic features are combined in a two-step learning.
 YOLOv3:
 
   You need to download a COCO's dataset model and add it on YOLOv3\weights folder. You can do it [here](https://drive.google.com/file/d/1u5gyZZnUA-8MetKhW2U-8g29WOzltIV0/view?usp=sharing).
-  For more details you can check this YOLOv3's [PyTorch implementation](https://github.com/eriklindernoren/PyTorch-YOLOv3), or you can check the [original](https://pjreddie.com/darknet/yolo/) implementation.
+  For more details you can check this YOLOv3's [PyTorch implementation](https://github.com/eriklindernoren/PyTorch-YOLOv3), or you can check out the [original](https://pjreddie.com/darknet/yolo/) implementation.
   
 
 To train:
