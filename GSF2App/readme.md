@@ -52,10 +52,10 @@ The same options as aforementioned are available...
 ```
 
 ```
-@InProceedings{yolov3,
+@article{yolov3,
 	author={Redmon, Joseph and Farhadi, Ali},
 	title={{YOLOv3: An Incremental Improvement}},
-	booktitle = {arXiv},
+	journal = {arXiv},
 	year={2018}}
 ```
 
