@@ -4,7 +4,11 @@ Global features were extracted by one of the mencioned state-of-the-art CNN. Sem
 
 <p align="center"><img src="assets/GSF2AppV2.png" width="720"\></p>
 
-<p align="center"><img src="assets/SFV.png" width="250"/> <img src="assets/SFM.png" width="250"/> <img src="assets/b.png" width="250"/> 
+<p align="center"><img src="assets/SFV.png" width="250"/> 
+	
+<p align="center"><img src="assets/SFM.png" width="450"/> 
+	
+<p align="center"><img src="assets/b.png" width="450"/> 
 
 ## Performing
 GSF2App was evaluated on the [NYU V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) and [SUN RGB-D](https://rgbd.cs.princeton.edu) datasets.
