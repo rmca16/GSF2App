@@ -1,12 +1,14 @@
 # GSF2App
-Implementation of the Global and Semantic Feature Fusion Approach ([GSF2App](https://ieeexplore.ieee.org/abstract/document/9096068)) for Indoor Scene Classification using the PyTorch framework.
+Implementation of the Global and Semantic Feature Fusion Approach (GSF2App) for Indoor Scene Classification using the PyTorch framework. 
 
+Summary: GSF2App is a two-branches network. In the first branch a state-of-the-art CNN is used to extract global features from the RGB indoor scene image. In the second branch, semantic features based on the YOLOv3's recognized objects, were developed. 
+
+## GSF2AppV2
+<p align="center"><img src="assets/GSF2AppV2.png" width="720"\></p>
+
+## GSF2App(V1)
 <p align="center"><img src="assets/GSF2App.png" width="720"\></p>
 
-## Performing
-GSF2App was evaluated on the [NYU V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) and [SUN RGB-D](https://rgbd.cs.princeton.edu) datasets.
-
-<p align="center"><img src="assets/GSF2App_NYU_results.png" width="350"/> <img src="assets/GSF2App_SUN_results.png" width="350"/> 
   
 ### Requirements
 
@@ -16,27 +18,31 @@ GSF2App was evaluated on the [NYU V2](https://cs.nyu.edu/~silberman/datasets/nyu
     cv2
     tqmd
     
-### Training & Tracking
-Global and Semantic features are combined in a two-step learning.
-<p align="center"><img src="assets/GSF2App_training.png" width="400"\></p>
-
-
-To train:
-
-    $ [Comming Soon]
-
-To Evaluate:
-
-    $ [Comming Soon]
 
 ## Citation
 
 ```
-@InProceedings{gsf2app_2020,
+@InProceedings{GSF2Appv2_2021,
+  author={R. {Pereira} and L. {Garrote} and T. {Barros} and A. {Lopes} and U. J. {Nunes}},
+  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={{A Deep Learning-based Indoor Scene Classification Approach Enhanced with Inter-Object Distance Semantic Features}}, 
+  year={2021}}
+```
+
+```
+@InProceedings{GSF2App_2020,
   author={R. {Pereira} and N. {Gonçalves} and L. {Garrote} and T. {Barros} and A. {Lopes} and U. J. {Nunes}},
   booktitle={IEEE International Conference on Autonomous Robot Systems and Competitions (ICARSC)}, 
   title={{Deep-Learning based Global and Semantic Feature Fusion for Indoor Scene Classification}}, 
   year={2020}}
+```
+
+```
+@article{yolov3,
+	author={Redmon, Joseph and Farhadi, Ali},
+	title={{YOLOv3: An Incremental Improvement}},
+	journal = {arXiv},
+	year={2018}}
 ```
 
 
