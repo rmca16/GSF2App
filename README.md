@@ -1,7 +1,7 @@
 # GSF2App
 Implementation of the Global and Semantic Feature Fusion Approach (GSF2App) for Indoor Scene Classification using the PyTorch framework. 
 
-Summary: GSF2App is a two-branches network. In the first branch a state-of-the-art CNN is used to extract global features from the RGB indoor scene image. In the second branch, semantic features based on the YOLOv3's recognized objects, were developed. 
+Summary: GSF2App is a two-branch network. In the first branch a state-of-the-art CNN is used to extract global features from the RGB indoor scene image. In the second branch, a semantic feature representation, based on the objects recognized, per frame, by the YOLOv3 approach, were implemented. 
 
 ## GSF2AppV2
 <p align="center"><img src="assets/GSF2AppV2.png" width="720"\></p>
