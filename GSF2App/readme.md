@@ -3,6 +3,10 @@ Implementation of the Global and Semantic Feature Fusion Approach ([GSF2App](htt
 
 <p align="center"><img src="assets/GSF2App.png" width="720"\></p>
 
+Semantic features are object-related features, which in this case, represent the number of recognized objects in the image under a vector form.
+
+<p align="center"><img src="assets/SFV.png" width="550"\></p>
+
 ## Performing
 GSF2App was evaluated on the [NYU V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html) and [SUN RGB-D](https://rgbd.cs.princeton.edu) datasets.
 
