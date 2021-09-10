@@ -1,4 +1,9 @@
-
+###################################################################################
+# Author: Ricardo Pereira
+# Date: 11-07-2021
+# Last Modified data: 10-09-2021
+# Abstract: GSF2AppV2: Dataset management file
+###################################################################################
 
 import numpy as np
 import time
@@ -48,13 +53,14 @@ class Dataset(data.Dataset):
 		X_data = X.permute(2,0,1)
 
 		y = (np.long(0))
-		#print("PLEASE, ADD SOME CODE TO READ LABELS FROM DE DATASET")
+		print("PLEASE, ADD SOME CODE TO READ LABELS FROM DE DATASET")
 
 		if self.training_stage == 1:
 			return X_data, y
 
 		elif self.training_stage == 2:
-			sfv, sfm = self.yolo.get_semantic_features(img, self.sfm_k)
+			yolo_img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+			sfv, sfm = self.yolo.get_semantic_features(yolo_img, self.sfm_k)
 
 			# SFV
 			sfv = np.array([sfv])
