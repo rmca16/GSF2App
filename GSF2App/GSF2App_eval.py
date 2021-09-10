@@ -1,3 +1,10 @@
+###################################################################################
+# Author: Ricardo Pereira
+# Date: 06-06-2021
+# Last Modified data: 08-07-2021
+# Abstract: GSF2App: Evaluation file
+###################################################################################
+
 import numpy as np
 import time
 import glob

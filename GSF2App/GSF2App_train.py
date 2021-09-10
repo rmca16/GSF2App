@@ -1,3 +1,10 @@
+###################################################################################
+# Author: Ricardo Pereira
+# Date: 06-06-2021
+# Last Modified data: 09-07-2021
+# Abstract: GSF2App: Training file
+###################################################################################
+
 import numpy as np
 import time
 import glob

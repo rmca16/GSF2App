@@ -1,4 +1,9 @@
-
+###################################################################################
+# Author: Ricardo Pereira
+# Date: 06-06-2021
+# Last Modified data: 10-09-2021
+# Abstract: GSF2App: Dataset management file
+###################################################################################
 
 import numpy as np
 import time
@@ -51,7 +56,8 @@ class Dataset(data.Dataset):
             return X_data, y
 
         elif self.training_stage == 2:
-            sfv = self.yolo.get_semantic_features(img)
+        	yolo_img = cv2.cvtColor(img, cv2.COLOR_RGB2BGR)
+            sfv = self.yolo.get_semantic_features(yolo_img)
             sfv = sfv.astype(np.float16)
             sfv = torch.from_numpy(sfv).float()
 
